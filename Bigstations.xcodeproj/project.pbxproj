@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5B96F8116C3EA540058E428 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B96F8016C3EA540058E428 /* UIKit.framework */; };
+		E5B96F8316C3EA540058E428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B96F8216C3EA540058E428 /* Foundation.framework */; };
+		E5B96F8516C3EA540058E428 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B96F8416C3EA540058E428 /* CoreGraphics.framework */; };
+		E5B96F8B16C3EA540058E428 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5B96F8916C3EA540058E428 /* InfoPlist.strings */; };
+		E5B96F8D16C3EA540058E428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B96F8C16C3EA540058E428 /* main.m */; };
+		E5B96F9116C3EA540058E428 /* StartViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B96F9016C3EA540058E428 /* StartViewControllerAppDelegate.m */; };
+		E5B96F9316C3EA540058E428 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B96F9216C3EA540058E428 /* Default.png */; };
+		E5B96F9516C3EA540058E428 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B96F9416C3EA540058E428 /* Default@2x.png */; };
+		E5B96F9716C3EA550058E428 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B96F9616C3EA550058E428 /* Default-568h@2x.png */; };
+		E5B96F9A16C3EA550058E428 /* StartViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B96F9916C3EA550058E428 /* StartViewControllerViewController.m */; };
+		E5B96F9D16C3EA550058E428 /* StartViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5B96F9B16C3EA550058E428 /* StartViewControllerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5B96F7D16C3EA540058E428 /* Bigstations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bigstations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B96F8016C3EA540058E428 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5B96F8216C3EA540058E428 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5B96F8416C3EA540058E428 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5B96F8816C3EA540058E428 /* Bigstations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bigstations-Info.plist"; sourceTree = "<group>"; };
+		E5B96F8A16C3EA540058E428 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5B96F8C16C3EA540058E428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5B96F8E16C3EA540058E428 /* Bigstations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bigstations-Prefix.pch"; sourceTree = "<group>"; };
+		E5B96F8F16C3EA540058E428 /* StartViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		E5B96F9016C3EA540058E428 /* StartViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		E5B96F9216C3EA540058E428 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E5B96F9416C3EA540058E428 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E5B96F9616C3EA550058E428 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E5B96F9816C3EA550058E428 /* StartViewControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewControllerViewController.h; sourceTree = "<group>"; };
+		E5B96F9916C3EA550058E428 /* StartViewControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewControllerViewController.m; sourceTree = "<group>"; };
+		E5B96F9C16C3EA550058E428 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StartViewControllerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5B96F7A16C3EA540058E428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B96F8116C3EA540058E428 /* UIKit.framework in Frameworks */,
+				E5B96F8316C3EA540058E428 /* Foundation.framework in Frameworks */,
+				E5B96F8516C3EA540058E428 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5B96F7416C3EA540058E428 = {
+			isa = PBXGroup;
+			children = (
+				E5B96F8616C3EA540058E428 /* Bigstations */,
+				E5B96F7F16C3EA540058E428 /* Frameworks */,
+				E5B96F7E16C3EA540058E428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5B96F7E16C3EA540058E428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5B96F7D16C3EA540058E428 /* Bigstations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5B96F7F16C3EA540058E428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5B96F8016C3EA540058E428 /* UIKit.framework */,
+				E5B96F8216C3EA540058E428 /* Foundation.framework */,
+				E5B96F8416C3EA540058E428 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5B96F8616C3EA540058E428 /* Bigstations */ = {
+			isa = PBXGroup;
+			children = (
+				E5B96F8F16C3EA540058E428 /* StartViewControllerAppDelegate.h */,
+				E5B96F9016C3EA540058E428 /* StartViewControllerAppDelegate.m */,
+				E5B96F9816C3EA550058E428 /* StartViewControllerViewController.h */,
+				E5B96F9916C3EA550058E428 /* StartViewControllerViewController.m */,
+				E5B96F9B16C3EA550058E428 /* StartViewControllerViewController.xib */,
+				E5B96F8716C3EA540058E428 /* Supporting Files */,
+			);
+			path = Bigstations;
+			sourceTree = "<group>";
+		};
+		E5B96F8716C3EA540058E428 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5B96F8816C3EA540058E428 /* Bigstations-Info.plist */,
+				E5B96F8916C3EA540058E428 /* InfoPlist.strings */,
+				E5B96F8C16C3EA540058E428 /* main.m */,
+				E5B96F8E16C3EA540058E428 /* Bigstations-Prefix.pch */,
+				E5B96F9216C3EA540058E428 /* Default.png */,
+				E5B96F9416C3EA540058E428 /* Default@2x.png */,
+				E5B96F9616C3EA550058E428 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5B96F7C16C3EA540058E428 /* Bigstations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B96FA016C3EA550058E428 /* Build configuration list for PBXNativeTarget "Bigstations" */;
+			buildPhases = (
+				E5B96F7916C3EA540058E428 /* Sources */,
+				E5B96F7A16C3EA540058E428 /* Frameworks */,
+				E5B96F7B16C3EA540058E428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bigstations;
+			productName = Bigstations;
+			productReference = E5B96F7D16C3EA540058E428 /* Bigstations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5B96F7516C3EA540058E428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = StartViewController;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Study;
+			};
+			buildConfigurationList = E5B96F7816C3EA540058E428 /* Build configuration list for PBXProject "Bigstations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5B96F7416C3EA540058E428;
+			productRefGroup = E5B96F7E16C3EA540058E428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B96F7C16C3EA540058E428 /* Bigstations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5B96F7B16C3EA540058E428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B96F8B16C3EA540058E428 /* InfoPlist.strings in Resources */,
+				E5B96F9316C3EA540058E428 /* Default.png in Resources */,
+				E5B96F9516C3EA540058E428 /* Default@2x.png in Resources */,
+				E5B96F9716C3EA550058E428 /* Default-568h@2x.png in Resources */,
+				E5B96F9D16C3EA550058E428 /* StartViewControllerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5B96F7916C3EA540058E428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B96F8D16C3EA540058E428 /* main.m in Sources */,
+				E5B96F9116C3EA540058E428 /* StartViewControllerAppDelegate.m in Sources */,
+				E5B96F9A16C3EA550058E428 /* StartViewControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5B96F8916C3EA540058E428 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B96F8A16C3EA540058E428 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5B96F9B16C3EA550058E428 /* StartViewControllerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B96F9C16C3EA550058E428 /* en */,
+			);
+			name = StartViewControllerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5B96F9E16C3EA550058E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E5B96F9F16C3EA550058E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5B96FA116C3EA550058E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bigstations/Bigstations-Prefix.pch";
+				INFOPLIST_FILE = "Bigstations/Bigstations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5B96FA216C3EA550058E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bigstations/Bigstations-Prefix.pch";
+				INFOPLIST_FILE = "Bigstations/Bigstations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5B96F7816C3EA540058E428 /* Build configuration list for PBXProject "Bigstations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B96F9E16C3EA550058E428 /* Debug */,
+				E5B96F9F16C3EA550058E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B96FA016C3EA550058E428 /* Build configuration list for PBXNativeTarget "Bigstations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B96FA116C3EA550058E428 /* Debug */,
+				E5B96FA216C3EA550058E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5B96F7516C3EA540058E428 /* Project object */;
+}
