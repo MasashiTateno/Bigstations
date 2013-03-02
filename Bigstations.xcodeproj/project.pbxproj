@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5353A4516C678BE00ACFD98 /* WorldStations.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5353A4416C678BE00ACFD98 /* WorldStations.plist */; };
+		E56AA27816C9314E00FEA760 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56AA27616C9314E00FEA760 /* MapViewController.m */; };
+		E56AA27916C9314E00FEA760 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56AA27716C9314E00FEA760 /* MapViewController.xib */; };
+		E56AA27F16C9330800FEA760 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56AA27B16C9330700FEA760 /* ViewController_iPad.xib */; };
+		E56AA28016C9330800FEA760 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56AA27D16C9330800FEA760 /* ViewController_iPhone.xib */; };
+		E56AA28216C935A700FEA760 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56AA28116C935A700FEA760 /* MapKit.framework */; };
+		E57F4CF116C5FF7700D70560 /* under_triangle3.png in Resources */ = {isa = PBXBuildFile; fileRef = E57F4CF016C5FF7700D70560 /* under_triangle3.png */; };
+		E57F4CF316C6040D00D70560 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57F4CF216C6040D00D70560 /* CoreAudio.framework */; };
+		E57F4CF516C6041700D70560 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57F4CF416C6041700D70560 /* CoreData.framework */; };
+		E57F4D8D16C60B8C00D70560 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57F4D8C16C60B8C00D70560 /* CoreLocation.framework */; };
+		E57F4D9016C61A0D00D70560 /* Stations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E57F4D8E16C61A0D00D70560 /* Stations.xcdatamodeld */; };
+		E57F4D9316C61AB600D70560 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = E57F4D9216C61AB600D70560 /* List.m */; };
 		E5B96F8116C3EA540058E428 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B96F8016C3EA540058E428 /* UIKit.framework */; };
 		E5B96F8316C3EA540058E428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B96F8216C3EA540058E428 /* Foundation.framework */; };
 		E5B96F8516C3EA540058E428 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B96F8416C3EA540058E428 /* CoreGraphics.framework */; };
@@ -18,9 +30,31 @@
 		E5B96F9716C3EA550058E428 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B96F9616C3EA550058E428 /* Default-568h@2x.png */; };
 		E5B96F9A16C3EA550058E428 /* StartViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B96F9916C3EA550058E428 /* StartViewControllerViewController.m */; };
 		E5B96F9D16C3EA550058E428 /* StartViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5B96F9B16C3EA550058E428 /* StartViewControllerViewController.xib */; };
+		E5B96FAB16C3EDA20058E428 /* SListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B96FA916C3EDA20058E428 /* SListTableViewController.m */; };
+		E5B96FAC16C3EDA20058E428 /* SListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5B96FAA16C3EDA20058E428 /* SListTableViewController.xib */; };
+		E5B96FAF16C3F88D0058E428 /* YS-background.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B96FAE16C3F88D0058E428 /* YS-background.png */; };
+		E5B96FB316C3FE130058E428 /*  earth_drop2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B96FB216C3FE130058E428 /*  earth_drop2.png */; };
+		E5B96FB616C3FFEA0058E428 /* fButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B96FB416C3FFEA0058E428 /* fButton.png */; };
+		E5B96FB716C3FFEA0058E428 /* sButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B96FB516C3FFEA0058E428 /* sButton.png */; };
+		E5B96FB916C4023C0058E428 /* triangle_under.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B96FB816C4023B0058E428 /* triangle_under.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5353A4416C678BE00ACFD98 /* WorldStations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WorldStations.plist; sourceTree = "<group>"; };
+		E5353A4616C6A4E000ACFD98 /* Stations 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Stations 2.xcdatamodel"; sourceTree = "<group>"; };
+		E56AA27516C9314E00FEA760 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		E56AA27616C9314E00FEA760 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		E56AA27716C9314E00FEA760 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		E56AA27C16C9330800FEA760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		E56AA27E16C9330800FEA760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		E56AA28116C935A700FEA760 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E57F4CF016C5FF7700D70560 /* under_triangle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = under_triangle3.png; path = images/under_triangle3.png; sourceTree = "<group>"; };
+		E57F4CF216C6040D00D70560 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		E57F4CF416C6041700D70560 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E57F4D8C16C60B8C00D70560 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E57F4D8F16C61A0D00D70560 /* Stations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stations.xcdatamodel; sourceTree = "<group>"; };
+		E57F4D9116C61AB600D70560 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		E57F4D9216C61AB600D70560 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
 		E5B96F7D16C3EA540058E428 /* Bigstations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bigstations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B96F8016C3EA540058E428 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E5B96F8216C3EA540058E428 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +71,14 @@
 		E5B96F9816C3EA550058E428 /* StartViewControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewControllerViewController.h; sourceTree = "<group>"; };
 		E5B96F9916C3EA550058E428 /* StartViewControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewControllerViewController.m; sourceTree = "<group>"; };
 		E5B96F9C16C3EA550058E428 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StartViewControllerViewController.xib; sourceTree = "<group>"; };
+		E5B96FA816C3EDA20058E428 /* SListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SListTableViewController.h; sourceTree = "<group>"; };
+		E5B96FA916C3EDA20058E428 /* SListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SListTableViewController.m; sourceTree = "<group>"; };
+		E5B96FAA16C3EDA20058E428 /* SListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SListTableViewController.xib; sourceTree = "<group>"; };
+		E5B96FAE16C3F88D0058E428 /* YS-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "YS-background.png"; path = "images/YS-background.png"; sourceTree = "<group>"; };
+		E5B96FB216C3FE130058E428 /*  earth_drop2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = " earth_drop2.png"; path = "images/ earth_drop2.png"; sourceTree = "<group>"; };
+		E5B96FB416C3FFEA0058E428 /* fButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fButton.png; path = images/fButton.png; sourceTree = "<group>"; };
+		E5B96FB516C3FFEA0058E428 /* sButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sButton.png; path = images/sButton.png; sourceTree = "<group>"; };
+		E5B96FB816C4023B0058E428 /* triangle_under.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangle_under.png; path = images/triangle_under.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +86,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56AA28216C935A700FEA760 /* MapKit.framework in Frameworks */,
+				E57F4D8D16C60B8C00D70560 /* CoreLocation.framework in Frameworks */,
+				E57F4CF516C6041700D70560 /* CoreData.framework in Frameworks */,
+				E57F4CF316C6040D00D70560 /* CoreAudio.framework in Frameworks */,
 				E5B96F8116C3EA540058E428 /* UIKit.framework in Frameworks */,
 				E5B96F8316C3EA540058E428 /* Foundation.framework in Frameworks */,
 				E5B96F8516C3EA540058E428 /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +99,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E56AA26F16C930D300FEA760 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				E5B96FA816C3EDA20058E428 /* SListTableViewController.h */,
+				E5B96FA916C3EDA20058E428 /* SListTableViewController.m */,
+				E5B96FAA16C3EDA20058E428 /* SListTableViewController.xib */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		E56AA27A16C9316100FEA760 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E56AA27516C9314E00FEA760 /* MapViewController.h */,
+				E56AA27616C9314E00FEA760 /* MapViewController.m */,
+				E56AA27716C9314E00FEA760 /* MapViewController.xib */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		E57F4D9416C61AC300D70560 /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				E57F4D9116C61AB600D70560 /* List.h */,
+				E57F4D9216C61AB600D70560 /* List.m */,
+				E57F4D8E16C61A0D00D70560 /* Stations.xcdatamodeld */,
+			);
+			name = coredata;
+			sourceTree = "<group>";
+		};
 		E5B96F7416C3EA540058E428 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +149,10 @@
 		E5B96F7F16C3EA540058E428 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E56AA28116C935A700FEA760 /* MapKit.framework */,
+				E57F4D8C16C60B8C00D70560 /* CoreLocation.framework */,
+				E57F4CF416C6041700D70560 /* CoreData.framework */,
+				E57F4CF216C6040D00D70560 /* CoreAudio.framework */,
 				E5B96F8016C3EA540058E428 /* UIKit.framework */,
 				E5B96F8216C3EA540058E428 /* Foundation.framework */,
 				E5B96F8416C3EA540058E428 /* CoreGraphics.framework */,
@@ -88,6 +168,8 @@
 				E5B96F9816C3EA550058E428 /* StartViewControllerViewController.h */,
 				E5B96F9916C3EA550058E428 /* StartViewControllerViewController.m */,
 				E5B96F9B16C3EA550058E428 /* StartViewControllerViewController.xib */,
+				E56AA27A16C9316100FEA760 /* Map */,
+				E56AA26F16C930D300FEA760 /* Table */,
 				E5B96F8716C3EA540058E428 /* Supporting Files */,
 			);
 			path = Bigstations;
@@ -96,6 +178,7 @@
 		E5B96F8716C3EA540058E428 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E57F4D9416C61AC300D70560 /* coredata */,
 				E5B96F8816C3EA540058E428 /* Bigstations-Info.plist */,
 				E5B96F8916C3EA540058E428 /* InfoPlist.strings */,
 				E5B96F8C16C3EA540058E428 /* main.m */,
@@ -103,8 +186,25 @@
 				E5B96F9216C3EA540058E428 /* Default.png */,
 				E5B96F9416C3EA540058E428 /* Default@2x.png */,
 				E5B96F9616C3EA550058E428 /* Default-568h@2x.png */,
+				E5353A4416C678BE00ACFD98 /* WorldStations.plist */,
+				E56AA27B16C9330700FEA760 /* ViewController_iPad.xib */,
+				E56AA27D16C9330800FEA760 /* ViewController_iPhone.xib */,
+				E5B96FAD16C3F8620058E428 /* images */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5B96FAD16C3F8620058E428 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E5B96FAE16C3F88D0058E428 /* YS-background.png */,
+				E5B96FB216C3FE130058E428 /*  earth_drop2.png */,
+				E5B96FB416C3FFEA0058E428 /* fButton.png */,
+				E5B96FB516C3FFEA0058E428 /* sButton.png */,
+				E57F4CF016C5FF7700D70560 /* under_triangle3.png */,
+				E5B96FB816C4023B0058E428 /* triangle_under.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +264,17 @@
 				E5B96F9516C3EA540058E428 /* Default@2x.png in Resources */,
 				E5B96F9716C3EA550058E428 /* Default-568h@2x.png in Resources */,
 				E5B96F9D16C3EA550058E428 /* StartViewControllerViewController.xib in Resources */,
+				E5B96FAC16C3EDA20058E428 /* SListTableViewController.xib in Resources */,
+				E5B96FAF16C3F88D0058E428 /* YS-background.png in Resources */,
+				E5B96FB316C3FE130058E428 /*  earth_drop2.png in Resources */,
+				E5B96FB616C3FFEA0058E428 /* fButton.png in Resources */,
+				E5B96FB716C3FFEA0058E428 /* sButton.png in Resources */,
+				E5B96FB916C4023C0058E428 /* triangle_under.png in Resources */,
+				E57F4CF116C5FF7700D70560 /* under_triangle3.png in Resources */,
+				E5353A4516C678BE00ACFD98 /* WorldStations.plist in Resources */,
+				E56AA27916C9314E00FEA760 /* MapViewController.xib in Resources */,
+				E56AA27F16C9330800FEA760 /* ViewController_iPad.xib in Resources */,
+				E56AA28016C9330800FEA760 /* ViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,12 +288,32 @@
 				E5B96F8D16C3EA540058E428 /* main.m in Sources */,
 				E5B96F9116C3EA540058E428 /* StartViewControllerAppDelegate.m in Sources */,
 				E5B96F9A16C3EA550058E428 /* StartViewControllerViewController.m in Sources */,
+				E5B96FAB16C3EDA20058E428 /* SListTableViewController.m in Sources */,
+				E57F4D9016C61A0D00D70560 /* Stations.xcdatamodeld in Sources */,
+				E57F4D9316C61AB600D70560 /* List.m in Sources */,
+				E56AA27816C9314E00FEA760 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E56AA27B16C9330700FEA760 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E56AA27C16C9330800FEA760 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		E56AA27D16C9330800FEA760 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E56AA27E16C9330800FEA760 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
 		E5B96F8916C3EA540058E428 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,8 +430,23 @@
 				E5B96FA216C3EA550058E428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E57F4D8E16C61A0D00D70560 /* Stations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E5353A4616C6A4E000ACFD98 /* Stations 2.xcdatamodel */,
+				E57F4D8F16C61A0D00D70560 /* Stations.xcdatamodel */,
+			);
+			currentVersion = E57F4D8F16C61A0D00D70560 /* Stations.xcdatamodel */;
+			path = Stations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E5B96F7516C3EA540058E428 /* Project object */;
 }
