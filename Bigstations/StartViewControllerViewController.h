@@ -18,6 +18,7 @@
     UIViewController *sListTableview;
     IBOutlet UIButton *startButton;
     IBOutlet UIButton *favoriteButton;
+    UILabel *committest;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
